@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            min-height: 100vh;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            background: url('/images/background.png') no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <div class="row">
+            <div class="logo col-lg-4"><img src="/images/logo.png" alt=""></div>
+        <nav class="navi col-lg-7">
+            <a href="login1.html">Home</a>
+            <a href="about.html">About</a>
+            <button class="btn"><a href="login.html">Login</a></button>
+        </nav>
+        </div>
+    
+        <div class="wrapper">
+            <a href="login1.html"><span class="icon-close"><i class="fa-solid fa-xmark"></i></span></a>
+            <div class="form-box login">
+                <h1>Login</h1>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember">
+                        <label><input type="checkbox">Remember me</label>
+                        <a href="">Forgot Password?</a>
+                    </div>
+                    <button class="enter"><a href="task.html">Login</a></button>
+                    
+                </form>
+            </div>  
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/96b4a596e3.js" crossorigin="anonymous"></script>
+</body>
+</html>
